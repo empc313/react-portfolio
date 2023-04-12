@@ -1,12 +1,15 @@
+
+
 import React from 'react';
 
-import Home from './src/components/pages/Home'
-import About from './src/components/pages/About';
-import Contact from './src/components/pages/Contact';
+import Home from './components/Home'
+import About from './components/pages/About';
+// import Contact from './components/pages/Contact';
+// import Portfolio from './components/Portfolio';
+// import NavTabs from './components/NavTabs';
 
 
-
-function App() {
+ export default function App() {
     return(
         <>
         <Router>
@@ -15,11 +18,10 @@ function App() {
             <Route path='/' element={<Home />} />
             <Route path='/about' element={<About />} />
             <Route path='/contact' element={<Contact />} />
-            <Route path='/' element={<Home />} />
-            <Routes/>
-        <Router/>
-     </>
-     </>
-     </>
+            <Route path='/portfolio' element={<Portfolio />} />
+            </Routes>
+        </Router> 
+    </>
     )
 } 
+
