@@ -1,12 +1,16 @@
-
-
 import React from 'react';
 
-import Home from './components/Home'
+import {
+    BrowserRouter as Router,
+    Routes,
+    Route
+  } from "react-router-dom";
+
+import Home from './components/pages/Home'
 import About from './components/pages/About';
-// import Contact from './components/pages/Contact';
-// import Portfolio from './components/Portfolio';
-// import NavTabs from './components/NavTabs';
+import Contact from './components/pages/Contact';
+import Portfolio from './components/pages/Portfolio';
+import NavTabs from './components/NavTabs';
 
 
  export default function App() {
