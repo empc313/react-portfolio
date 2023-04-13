@@ -6,7 +6,7 @@ export default function About() {
 			<div className="center" id="about">
 				<h1 className="page-header">About Me</h1>
 			</div>
-			<div className="center">
+			<div class="content has-text-centered">
 			</div>
 			<div>
 				<p>
