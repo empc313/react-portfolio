@@ -7,11 +7,13 @@ import About from './components/pages/About';
 import Contact from './components/pages/Contact';
 import Portfolio from './components/pages/Portfolio';
 import NavTabs from './components/NavTabs';
-
+import Footer from '../src/components/footer';
+import Header from '../src/components/header'
 
  export default function App() {
     return(
            <>
+           <Header/>
         <Router>
             <NavTabs/>
         <Routes>
@@ -21,6 +23,7 @@ import NavTabs from './components/NavTabs';
             <Route path='/portfolio' element={<Portfolio />} />
             </Routes>
         </Router>
+        <Footer/>
     </>
     )
 } 
